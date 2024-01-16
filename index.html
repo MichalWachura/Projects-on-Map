@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click on marker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar__card">
+                <img src="./img/1_img.jpg" alt="" class="card__img">
+                <label class="card_titel">Center for Moleculare Research</label>
+                <p class="card_txt">Das Projekt umfasst die Schaffung einer Ausbildunggebäude auf einem Grundstück, das an natürlichen Wanderwegen liegt, die den Universitätscampus, die Wohnheime und einen Park verbinden. Dieser Standort führte zu der Idee, das Gebäude zu erhöhen und einen Treffpunkt und einen Durchgang zwischen den oben genannten Bereichen zu schaffen um keine künstlichen Barrieren für Anwohner und Studierende zu schaffen.</p>
+            </div>
+            
+            
+        </div>
+        <div class="map" id="map"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
